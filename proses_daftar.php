@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <?php session_start(); ?>
 		<?php
-			$host = "localhost";
-			$username = "root";
-			$password = "";
-			$database = "web";
-			
-			$koneksi = mysql_connect($host, $username, $password)
-						or die("Error, Katek Koneksi");
-			$db = mysql_select_db($database) or die(mysql_error());
+			include('koneksi.php');
 				
 			$query = "select * from akun_user where username='".$_POST['username']."'";
 			
