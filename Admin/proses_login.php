@@ -6,14 +6,7 @@
 	<br><br><br>
 	<table border="0" align="center">
 		<?php
-			$host = "localhost";
-			$_username = "root";
-			$_password = "";
-			$_database = "web";
-			
-			$koneksi = mysql_connect($host, $_username, $_password)
-						or die("Error, Katek Koneksi");
-			$db = mysql_select_db($_database) or die(mysql_error());
+			include('koneksi.php');
 			
 			$query = " SELECT * FROM user_admin where username = '".$_POST['username']."' && password = '".$_POST['password']."' && status ='admin'";
 			
