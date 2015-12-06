@@ -94,21 +94,21 @@
 	<table id="body" align="center">
 				<tr>
 					<td  width="300" height="200" align="center"> <div id="foot2"> <font size="3" face="aharoni" align="center" color="green"> yourOrder.com </font><br>
-						<font size="3" face="aharoni"> <a href="index.php?page=daftar"> Daftar </a> </font><br>
+						<font size="3" face="aharoni" color="white"> <a href="index.php?page=daftar"> Daftar </a> </font><br>
 						<?php 
 						if(isset($_SESSION['login']))
 							{
 						?>
-						<font size="3" face="aharoni"> <a href="index.php?page=halidpesanan"> Orderan </a> </font><br>
-						<font size="3" face="aharoni"> <a href="index.php?page=konfirmasi"> Konfirmasi Order </a></font><br>
-						<font size="3" face="aharoni"> <a href="index.php?page=logout"> Logout</a> </font>  <br>
+						<font size="3" face="aharoni" color="white"> <a href="index.php?page=halidpesanan"> Orderan </a> </font><br>
+						<font size="3" face="aharoni" color="white"> <a href="index.php?page=konfirmasi"> Konfirmasi Order </a></font><br>
+						<font size="3" face="aharoni" color="white"> <a href="index.php?page=logout"> Logout</a> </font>  <br>
 						<?php
 							}
 							else {
 						?>
-							<font size="3" face="aharoni"> <a href="index.php?page=login"> Login</a></font>  <br>
-							<font size="3" face="aharoni"> <a href="index.php?page=halmotor"> Motor </a> </font><br>
-						<font size="3" face="aharoni"> <a href="index.php?page=halcars"> Mobil</a></font>  <br>
+							<font size="3" face="aharoni" color="white"> <a href="index.php?page=login"> Login</a></font>  <br>
+							<font size="3" face="aharoni" color="white"> <a href="index.php?page=halmotor"> Motor </a> </font><br>
+						<font size="3" face="aharoni" color="white"> <a href="index.php?page=halcars"> Mobil</a></font>  <br>
 						<?php
 							}
 						?>
@@ -119,10 +119,10 @@
 					<td  width="300" height="200" align="center">
 						<div id="foot2">
 								<font size="3" color="green" face="aharoni"> Follow us<br>
-								<font size="3" face="aharoni"> <a href="http://twitter.com">twitter</a>  </font> <br>
-								<font size="3" face="aharoni"> <a href="http://facebook.com">facebook</a>  </font> <br>
-								<font size="3" face="aharoni"> <a href="http://instagram.com">instagram</a>  </font> <br>
-								<font size="3" face="aharoni"> <a href="http://google.com">google+</a>  </font> <br>
+								<font size="3" face="aharoni" color="white"> <a href="http://twitter.com">twitter</a>  </font> <br>
+								<font size="3" face="aharoni" color="white"> <a href="http://facebook.com">facebook</a>  </font> <br>
+								<font size="3" face="aharoni" color="white"> <a href="http://instagram.com">instagram</a>  </font> <br>
+								<font size="3" face="aharoni" color="white"> <a href="http://google.com">google+</a>  </font> <br>
 								</div>
 							</td>
 					</tr>
