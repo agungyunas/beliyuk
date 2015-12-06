@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <?php session_start(); ?>
 		<?php
-			$host = "localhost";
-			$username = "root";
-			$password = "";
-			$database = "web";
-			
-			$koneksi = mysql_connect($host, $username, $password)
-						or die("Error, Katek Koneksi");
-			$db = mysql_select_db($database) or die(mysql_error());
+			include('koneksi.php');
 			
 					$query = "insert into konfirmasi values ('".$_POST['id_pesanan']."','".$_POST['namapengirim']."','".$_POST['nomorrek']."','".$_POST['jumlahtf']."','".$_POST['kontak']."',
 									'".$_POST['email']."','".$_POST['bank']."')";
