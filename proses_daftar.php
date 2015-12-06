@@ -5,7 +5,7 @@
 				
 			$query = "select * from akun_user where username='".$_POST['username']."'";
 			
-			$hasil = mysql_query($query) or die ($mysql_error);
+			$hasil = mysql_query($query) or die ($mysql_error());
 			
 			$hitung = mysql_num_rows($hasil);
 			
@@ -17,7 +17,7 @@
 									'".$_POST['tgl_lahir']."','".$_POST['jenis_kelamin']."','".$_POST['kontak']."','".$_POST['email']."',
 									'".$_POST['alamat']."')";
 						
-						$hasil=mysql_query($query) or die (mysql_error);
+						$hasil=mysql_query($query) or die ($mysql_error());
 						
 						if($hasil){
 									echo "<script> alert('register berhasil selamat eaa|!!'); window.location = 'index.php'; </script>";
