@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 		<?php
-			$host = "localhost";
-			$username = "root";
-			$password = "";
-			$database = "web";
-			
-			$koneksi = mysql_connect($host, $username, $password)
-						or die("Error, Katek Koneksi");
-			$db = mysql_select_db($database) or die(mysql_error());
+			include('koneksi.php');
 			
 			function ryRandom($muncul){
 
