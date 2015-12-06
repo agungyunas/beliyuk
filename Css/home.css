@@ -1,0 +1,120 @@
+	a {
+    text-decoration: none;
+	}
+	
+		a:visited {
+			text-decoration: underline;
+		}
+
+		a:active {
+			background-color : white;
+			
+		}
+		
+		a:hover{
+			text-decoration:underline;
+		}
+
+		
+			
+	  #body {
+        padding :20px;
+		width:950px;
+        background-color : #9ad6bd;
+		border: 2px solid white;
+		box-shadow: 0px 0px 10px black;
+		}
+		
+		#foot2 {
+				background: -moz-linear-gradient(center top , #ffffff 50%, #1780dd 100%);
+				padding: 30px;
+				background-size: 40px;
+				border-radius: 7px;
+				
+			}
+			
+		#shadow:hover {
+			Box-shadow: 0px 0px 20px black;
+			background-color:transparent;
+			border-radius: 10px;
+			}
+		
+			
+		#Gradien{
+		background: -moz-linear-gradient(center top , #ffffff 50%, #1780dd 100%);
+		border-radius: 8px;
+		}
+		
+		#harga {
+			border:10px black;
+			width:50%;
+			border-radius: 7px;
+			font-family:times new roman;
+			font-size:10px;
+		}
+		
+			input[type=submit] {
+					background: linear-gradient(to bottom, #0088CC, #0044CC);
+					border: 1px solid #0088CC;
+					color: #FFF;
+					margin: 4px 10px;
+					padding: 5px;
+					width: 100px;
+				}
+			
+				input[type=button] {
+					background: linear-gradient(to bottom, #0088CC, #0044CC);
+					border: 1px solid #0088CC;
+					color: #FFF;
+					margin: 4px 10px;
+					padding: 5px;
+					width: 100px;
+				}
+				
+			.f-nav{ 
+			z-index: 9999; 
+			position: fixed; 
+			left: 0; 
+			top: 0; 
+			width: 100%; 
+			padding:0 40px;
+			} /* ini yang membuat menu menjadi melayang (fixed) */
+    
+			.nav {
+			background: #9ad6bd;
+			margin:0 0 40px 0;
+			}
+			.nav li {
+			list-style-type:none;
+			display:inline-block;
+			padding:10px;
+			box-shadow: 0px 5px 4px black;
+			}
+			
+			input[type=submit]:hover {
+				cursor: pointer;
+			}
+
+				#search input[type="text"] {
+					background: url(http://2.bp.blogspot.com/-El7-211Pt7o/T5HBuBrNztI/AAAAAAAAAow/bV7f0allh4Q/s1600/cari.png) no-repeat 5px 6px #ffffff;
+					border: 0 none;
+					font: bold 12px Arial,Helvetica,Sans-serif;
+					color: #bbbbbb;
+					width: 150px;
+					padding: 6px 15px 6px 35px;
+					-webkit-border-radius: 20px;
+					-moz-border-radius: 20px;
+					border-radius: 20px;
+					-webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+					-moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+					box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+					-webkit-transition: all 0.7s ease 0s;
+					-moz-transition: all 0.7s ease 0s;
+					-o-transition: all 0.7s ease 0s;
+					transition: all 0.7s ease 0s;
+					}
+
+				#search input[type="text"]:focus {
+					width: 185px;
+					}
+			
