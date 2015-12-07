@@ -20,7 +20,7 @@
 						$hasil=mysql_query($query) or die ($mysql_error());
 						
 						if($hasil){
-							echo "<script> alert('register berhasil selamat !!'); window.location = 'index.php?page=login'; </script>";
+							echo "<script> alert('register berhasil selamat !!'); window.location = 'index.php'; </script>";
 						}
 						else {
 							echo "<script> alert('register gagal!!'); window.history.back(); </script>";
