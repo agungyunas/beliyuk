@@ -1,7 +1,7 @@
 
 				
 	<table bORDER="0" align="center">	
-			<form action="proses_daftar.php" method="post" name="daftar"><br>	
+			<form action="proses_tambahhak.php" method="post" name="daftar"><br>	
 								<tr>
 									<td colspan="3" align="center">
 								
