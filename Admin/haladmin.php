@@ -38,7 +38,7 @@
 					?>
 					<li><a href="haladmin.php?page=logout"> <font size="3" face="aharoni" color="white"><b> LOGOUT</a></font></li>
 					<li><font size="3" face="aharoni" color="black" align="right"><?php echo "Welcome, ".$_SESSION['username']; ?> </font></li>
-					<li><a href="haladmin.php?page=hakakses"> <font size="3" face="aharoni" color="white"><b> NEW HAK AKSES</a></font></li>
+					<li><a href="haladmin.php?page=tambahhak"> <font size="3" face="aharoni" color="white"><b> NEW HAK AKSES</a></font></li>
 					<?php
 							}
 					?>
