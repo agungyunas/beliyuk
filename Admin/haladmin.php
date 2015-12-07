@@ -32,7 +32,7 @@
 					?>
 					<li><a href="haladmin.php?page=login"> <font size="3" face="aharoni" color="white"><b> LOGIN</a></font></li>
 					<?php
-					<?php
+				
 					}
 						else 
 							{
