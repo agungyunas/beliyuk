@@ -25,6 +25,7 @@
 				
 				<div class="nav cf">
 				<li><a href="haladmin.php?page=home"> <font size="3" face="aharoni" color="white"><b> HOME	</a></font></li>
+				<li><a href="haladmin.php?page=tambahhak"> <font size="3" face="aharoni" color="white"><b> NEW	</a></font></li>
 				<?php 
 					if(!isset($_SESSION['login']))
 					{
@@ -73,10 +74,7 @@
 			<tr>
 			<td align="center" width="300"  height="50"><div id="gradien"><a href="haladmin.php?page=list_konfirmasi"> <font size="5" face="aharoni" color="green"><b> Konfirmasi	</a></div></td>
 			</tr>
-			
-			<tr>
-			<td align="center" width="300"  height="50"><div id="gradien"><a href="haladmin.php?page=tambahhak"> <font size="5" face="aharoni" color="green"><b> Tambah Hak Akses </a></div></td>
-			</tr>
+		
 	
 			<table align="center">
 						<tr align="center"> 
