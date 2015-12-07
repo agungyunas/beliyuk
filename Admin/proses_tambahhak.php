@@ -10,7 +10,7 @@
 			
 			if($hitung == 0){
 			
-					$query = "insert into user_admin (username, password) value ('".$_POST['username']."','".$_POST['password']."')";
+					$query = "insert into user_admin (username, password, status) value ('".$_POST['username']."','".$_POST['password']."','admin')";
 						
 						$hasil=mysql_query($query) or die ($mysql_error());
 						
