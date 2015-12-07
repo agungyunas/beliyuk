@@ -12,8 +12,7 @@
 			if($hitung == 0){
 				if($_POST['password'] == $_POST['confirm'])
 				{
-					$query = "insert into akun_user values ('".$_POST['nama']."','".$_POST['username']."','".$_POST['password']."','".$_POST['no_id']."',
-									'".$_POST['tgl_lahir']."','".$_POST['jenis_kelamin']."','".$_POST['kontak']."','".$_POST['email']."',
+					$query = "insert into akun_user values ('".$_POST['nama']."','".$_POST['username']."','".$_POST['password']."','".$_POST['no_id']."','".$_POST['tgl_lahir']."','".$_POST['jenis_kelamin']."','".$_POST['kontak']."','".$_POST['email']."',
 									'".$_POST['alamat']."')";
 						
 						$hasil=mysql_query($query) or die ($mysql_error());
