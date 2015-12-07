@@ -38,7 +38,6 @@
 					?>
 					<li><a href="haladmin.php?page=logout"> <font size="3" face="aharoni" color="white"><b> LOGOUT</a></font></li>
 					<li><font size="3" face="aharoni" color="black" align="right"><?php echo "Welcome, ".$_SESSION['username']; ?> </font></li>
-					<li><a href="haladmin.php?page=tambahhak"> <font size="3" face="aharoni" color="white"><b> NEW HAK AKSES</a></font></li>
 					<?php
 							}
 					?>
@@ -47,7 +46,7 @@
 				<td align="center" width="300" height="50">
 					<div id="Gradien"><a href="haladmin.php?page=updatembl"> <font size="5" face="aharoni" color="green"><b> Update Mobil	</a></font></div>
 						</td>	
-					<td rowspan="5" colspan="2">
+					<td rowspan="6" colspan="2">
 						<?php
 							if(!isset($_GET['page']))
 							{
@@ -73,6 +72,10 @@
 			
 			<tr>
 			<td align="center" width="300"  height="50"><div id="gradien"><a href="haladmin.php?page=list_konfirmasi"> <font size="5" face="aharoni" color="green"><b> Konfirmasi	</a></div></td>
+			</tr>
+			
+			<tr>
+			<td align="center" width="300"  height="50"><div id="gradien"><a href="haladmin.php?page=tambahhak"> <font size="5" face="aharoni" color="green"><b> Tambah Hak Akses </a></div></td>
 			</tr>
 	
 			<table align="center">
